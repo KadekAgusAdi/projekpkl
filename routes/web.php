@@ -18,6 +18,9 @@ Route::get('/lihat', function () {
 });
 
 Route::get('/', function () {
-    return view('products');
+    return view('lihat');
 });
 
+Route::get('/products', function () {
+    return view('products');
+});
