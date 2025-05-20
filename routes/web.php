@@ -21,7 +21,7 @@ Route::get('/lihat', function () {
 });
 
 Route::get('/', function () {
-    return redirect('/tambah'); // atau arahkan ke salah satu
+    return redirect('/tambah'); 
 });
 Route::get('/', function () {
     return view('products');

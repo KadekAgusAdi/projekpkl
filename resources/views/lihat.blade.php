@@ -18,7 +18,7 @@
 <body class="py-5">
     <div class="container">
 
-        <!-- Tombol kembali ke halaman tambah produk -->
+        //Tombol kembali ke halaman tambah produk
         <div class="mb-4 text-start">
             <a href="/products" class="btn btn-outline-primary">← Kembali ke Tambah Produk</a>
         </div>
@@ -33,9 +33,7 @@
                         <th>Aksi</th>
                     </tr>
                 </thead>
-                <tbody id="productTableBody">
-                    <!-- Akan diisi lewat JavaScript -->
-                </tbody>
+                <tbody id="productTableBody"></tbody>
             </table>
         </div>
     </div>
