@@ -28,7 +28,6 @@
 </head>
 <body class="py-5">
     <div class="container">
-        //Tombol ke halaman lihat produk
         <div class="mb-4 text-end">
             <a href="/lihat" class="btn btn-outline-success">Lihat Produk</a>
         </div>
