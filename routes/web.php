@@ -12,15 +12,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function () {
-    return view('test'); // Ini akan menampilkan test.blade.php sebagai homepage
-});
 
 Route::get('/lihat', function () {
     return view('lihat');
 });
 
-Route::get('/products', function () {
+Route::get('/', function () {
     return view('products');
 });
 
