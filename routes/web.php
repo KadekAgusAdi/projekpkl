@@ -20,13 +20,6 @@ Route::get('/lihat', function () {
     return view('lihat');
 });
 
-Route::get('/', function () {
-    return redirect('/test'); 
-});
-Route::get('/', function () {
-    return view('products');
-});
-
 Route::get('/products', function () {
     return view('products');
 });
