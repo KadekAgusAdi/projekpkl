@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/tambah', function () {
-    return view('tambah');
+Route::get('/', function () {
+    return view('test'); // Ini akan menampilkan test.blade.php sebagai homepage
 });
 
 Route::get('/lihat', function () {
@@ -21,7 +21,7 @@ Route::get('/lihat', function () {
 });
 
 Route::get('/', function () {
-    return redirect('/tambah'); 
+    return redirect('/test'); 
 });
 Route::get('/', function () {
     return view('products');
