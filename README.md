@@ -1,6 +1,6 @@
 # Aplikasi CRUD Produk – Laravel (projekpkl)
 
-Aplikasi sederhana CRUD Produk menggunakan Laravel sebagai backend dan Bootstrap untuk frontend. API dapat diakses melalui Postman. Proyek ini dibuat untuk memenuhi tugas fullstack developer.
+Aplikasi sederhana CRUD Produk menggunakan Laravel sebagai backend dan Bootstrap untuk frontend. API dapat diakses melalui Postman. 
 
 ## 📌 Fitur
 - Menampilkan daftar produk
@@ -16,14 +16,13 @@ Aplikasi sederhana CRUD Produk menggunakan Laravel sebagai backend dan Bootstrap
 - Postman
 
 ## 🧾 Struktur Database (Tabel `products`)
-| Kolom      | Tipe Data     | Keterangan           |
-|------------|---------------|----------------------|
-| id         | BIGINT (auto) | Primary Key          |
-| name       | VARCHAR        | Nama produk          |
-| price      | INTEGER        | Harga produk         |
-| description| TEXT (nullable)| Deskripsi produk     |
-| created_at | TIMESTAMP     | Otomatis Laravel     |
-| updated_at | TIMESTAMP     | Otomatis Laravel     |
+ Kolom       Tipe Data                    
+ id          BIGINT (auto)     (Primary Key)          
+ name        VARCHAR           (Nama produk)          
+ price       INTEGER           (Harga produk)        
+ description TEXT (nullable)   (Deskripsi produk)     
+ created_at  TIMESTAMP         (Otomatis Laravel)     
+ updated_at  TIMESTAMP         (Otomatis Laravel)     
 
 ## 🚀 Cara Instalasi
 
